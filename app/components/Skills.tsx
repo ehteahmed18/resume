@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
     return (
-        <div id="skills" className="flex flex-wrap py-10 ">
+        <div id="skills" className="flex flex-wrap pt-40 ">
             <div className="flex flex-col w-full  sm:w-1/2 ">
                 <h1 className="m-auto text-2xl sm:text-4xl text-gray-200 pt-2 font-semibold">Technical Skills</h1>
                 <div className="w-9/12 flex flex-col m-auto py-5">

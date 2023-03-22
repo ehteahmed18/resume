@@ -6,6 +6,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
 import Education from './components/Education'
+import Work from './components/Work'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Page() {
     <About/>
     <Education/>
     <Skills/>
+    <Work/>   
     </>
   )
 }

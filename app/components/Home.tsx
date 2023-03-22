@@ -6,7 +6,7 @@ import { FiGithub, FiTwitter } from "react-icons/fi";
 
 export default function Home() {
     return (
-        <div id="home" className="  about flex flex-wrap h-[500px] sm:pt-20">
+        <div  className=" about flex flex-wrap h-[500px] lg:pt-20 sm:pt-10">
             <div className=" fadeinimage flex flex-col  items-start pl-5  sm:pt-20 pb-10 w-full sm:w-6/12 mt-12 lg:pl-28 md:pl-10 ">
                 <div className=" px-5 py-2 mb-3 rounded-t-xl rounded-br-xl bg-green-500">Hello I am</div>
                 <h1 className="text-5xl font-semibold lg:text-6xl ">Ehtesham Ahmed</h1>
@@ -20,7 +20,7 @@ export default function Home() {
                     <a href="#" className="hover:bg-green-400"><FaLinkedinIn className="w-6 h-6 m-4 "/></a>
                     <a href="#" className="hover:bg-green-400"><FiTwitter className="w-6 h-6 m-4"/></a>
                     <a href="#" className="hover:bg-green-400"><FiGithub className="w-6 h-6 m-4"/></a>
-                    <a href="#" className="hover:bg-green-400"><AiOutlineInstagram className="w-6 h-6 m-4"/></a>
+                    <a href="#" className="hover:bg-green-400"><AiOutlineInstagram className="w-6 h-6 m-4 "/></a>
                 </div>
             </div>
             <div className="fadeinimage w-full sm:w-1/2 flex items-center justify-center xl:pr-20 ">

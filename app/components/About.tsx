@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function About(){
     return(
-        <div id="about" className="about flex flex-wrap-reverse py-5 sm:mt-10 mt-[500px] sm:py-48">
+        <div id="about" className="about flex flex-wrap-reverse py-5 sm:mt-10 mt-[500px] sm:pt-48 sm:pb-24">
             <div className="fadeinimage flex w-full sm:w-1/2  justify-center mt-4 sm:mt-0  ">
-                <Image src="/ab-img.jpg" alt="AboutMe" width="300" height="500" className=" lg:w-[400px] xl:w-[500px] lg:h-500" />
+                <Image src="/ab-img.jpg" alt="AboutMe" width="300" height="300" className="md:w-[250px]  lg:w-[400px] xl:w-[500px] lg:h-500" />
             </div>
             <div className="fadeinimage flex flex-col w-full sm:w-1/2 justify-center p-2 ">
                 <h1 className="m-2 text-4xl font-semibold m-auto pb-4 sm:m-0 ">About Me</h1>

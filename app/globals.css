@@ -117,7 +117,7 @@ html{
 
 @layer base{
   body{
-    @apply text-white bg-zinc-900;
+    @apply text-gray-200 bg-zinc-900;
   }
 }
 
