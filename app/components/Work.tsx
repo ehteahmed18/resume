@@ -11,7 +11,7 @@ export default function Work() {
                 <h1 className="text-2xl sm:text-4xl pt-2 font-semibold text-gray-200 ">Work I Have Done</h1>
             </div>
             <div className="flex flex-wrap mt-5 sm:mt-10">
-                <div className="flex p-5 sm:py-10 w-full 2md:w-7/12 justify-end ">
+                <div className="flex p-5 sm:py-10 w-full 2md:w-7/12 justify-start lg:justify-end ">
                     <Image src="/pnv.png" alt="" width="700" height="500" className="opacity-50  hover:opacity-100 " />
                 </div>
                 <div className="flex flex-col items-center 2md:items-end w-full 2md:w-4/12 ">
@@ -42,7 +42,7 @@ export default function Work() {
                         <a href="https://project00-pricing-ui.vercel.app/" className="px-3 mx-2 text-2xl pt-3 text-gray-200"><FaExternalLinkAlt /></a>
                     </div>
                 </div>
-                <div className="flex p-5 sm:py-10 w-full 2md:w-7/12 justify-start ">
+                <div className="flex p-5 sm:py-10 w-full 2md:w-7/12 justify-center lg:justify-start ">
                     <Image src="/pricing.png" alt="" width="700" height="500" className="opacity-50  hover:opacity-100 " />
                 </div>
             </div>
